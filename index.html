@@ -6,7 +6,7 @@
   <title>Newton Group of Schools (NGS) | British International Schools in Qatar</title>
   <meta name="description" content="Newton Group of Schools (NGS) is the leading network of British international schools in Qatar, delivering academic excellence from EYFS to Secondary.">
 
-  <!-- Tailwind CSS & Theme Config -->
+  <!-- Tailwind CSS Configuration -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -29,7 +29,7 @@
     }
   </script>
 
-  <!-- Typography & Icons -->
+  <!-- Google Fonts & Icon Libraries -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@
 
   <!-- Top Announcement Bar -->
   <header class="bg-brand-navy text-white text-xs py-2.5 px-4 sm:px-8 border-b border-white/10 relative z-50">
-    <div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
       <div class="flex items-center gap-2 font-medium tracking-wide">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
         <span>Notice: <span class="text-emerald-300 font-semibold">Admission Started</span></span>
@@ -66,7 +66,7 @@
 
   <!-- Sticky Main Navigation -->
   <nav class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
-    <div class="max-w-[1440px] mx-auto px-4 sm:px-8 h-20 sm:h-24 flex items-center justify-between">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 h-20 sm:h-24 flex items-center justify-between">
       <!-- Hanging Crest Logo Ribbon -->
       <div class="relative z-50 -mt-2">
         <a href="#" class="block bg-white px-3 sm:px-5 pt-3 pb-6 rounded-b-2xl shadow-xl border-x border-b border-slate-100 crest-ribbon hover:translate-y-1 transition duration-300">
@@ -74,7 +74,7 @@
         </a>
       </div>
 
-      <!-- Desktop Menu Links -->
+      <!-- Desktop Navigation Links -->
       <div class="hidden lg:flex items-center gap-8 xl:gap-10 font-medium text-sm text-slate-700 ml-8">
         <a href="#about" class="hover:text-brand-green transition">About Us</a>
         <a href="#campuses" class="hover:text-brand-green transition">Campuses</a>
@@ -84,13 +84,13 @@
         <a href="#footer" class="hover:text-brand-green transition">Contact Us</a>
       </div>
 
-      <!-- Action Buttons -->
+      <!-- Header Action Buttons -->
       <div class="hidden sm:flex items-center gap-3.5">
-        <a href="#campuses" class="px-5 py-2.5 rounded-xl border-2 border-brand-green text-brand-green font-semibold text-xs tracking-wider uppercase hover:bg-brand-green hover:text-white transition">SCHOOL TOUR</a>
-        <a href="#why-choose" class="px-6 py-2.5 rounded-xl bg-brand-green text-white font-semibold text-xs tracking-wider uppercase shadow hover:bg-brand-green-dark transition">APPLY NOW</a>
+        <a href="#campuses" class="btn-outline">SCHOOL TOUR</a>
+        <a href="#why-choose" class="btn-primary">APPLY NOW</a>
       </div>
 
-      <!-- Mobile Menu Toggle -->
+      <!-- Mobile Menu Toggle Button -->
       <button id="mobile-menu-btn" class="lg:hidden p-2 text-slate-800 hover:text-brand-green" aria-label="Toggle navigation">
         <i class="fa-solid fa-bars text-2xl"></i>
       </button>
@@ -122,7 +122,7 @@
           <div class="swiper-slide relative">
             <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=2000&auto=format&fit=crop" alt="Classroom learning at Newton Group" class="w-full h-full object-cover brightness-75">
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/20"></div>
-            <div class="absolute inset-0 max-w-[1440px] mx-auto px-4 sm:px-8 flex flex-col justify-end pb-24 sm:pb-28">
+            <div class="absolute inset-0 max-w-7xl mx-auto px-4 sm:px-8 flex flex-col justify-end pb-24 sm:pb-28">
               <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl text-white font-bold max-w-3xl leading-tight mb-4">Empowering Future Leaders</h1>
               <p class="text-white/90 text-base sm:text-xl font-light max-w-2xl leading-relaxed">A prestigious network of British international schools across Qatar delivering academic excellence.</p>
             </div>
@@ -130,7 +130,7 @@
           <div class="swiper-slide relative">
             <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2000&auto=format&fit=crop" alt="School library and collaborative study" class="w-full h-full object-cover brightness-75">
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/20"></div>
-            <div class="absolute inset-0 max-w-[1440px] mx-auto px-4 sm:px-8 flex flex-col justify-end pb-24 sm:pb-28">
+            <div class="absolute inset-0 max-w-7xl mx-auto px-4 sm:px-8 flex flex-col justify-end pb-24 sm:pb-28">
               <h2 class="font-serif text-3xl sm:text-5xl lg:text-6xl text-white font-bold max-w-3xl leading-tight mb-4">Inspiring Young Minds</h2>
               <p class="text-white/90 text-base sm:text-xl font-light max-w-2xl leading-relaxed">Fostering innovation, critical thinking, and character through the English National Curriculum.</p>
             </div>
@@ -138,7 +138,7 @@
           <div class="swiper-slide relative">
             <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2000&auto=format&fit=crop" alt="Vibrant international student community" class="w-full h-full object-cover brightness-75">
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/20"></div>
-            <div class="absolute inset-0 max-w-[1440px] mx-auto px-4 sm:px-8 flex flex-col justify-end pb-24 sm:pb-28">
+            <div class="absolute inset-0 max-w-7xl mx-auto px-4 sm:px-8 flex flex-col justify-end pb-24 sm:pb-28">
               <h2 class="font-serif text-3xl sm:text-5xl lg:text-6xl text-white font-bold max-w-3xl leading-tight mb-4">Nurturing Global Citizens</h2>
               <p class="text-white/90 text-base sm:text-xl font-light max-w-2xl leading-relaxed">Welcoming students across Qatar into vibrant, inclusive international learning communities.</p>
             </div>
@@ -156,12 +156,12 @@
 
     <!-- About Section -->
     <section id="about" class="pt-20 lg:pt-28 pb-0 bg-[#F8FAFD] starburst-bg border-b border-slate-100">
-      <div class="max-w-[1280px] mx-auto px-4 sm:px-8 text-center">
-        <p class="wow animate__animated animate__fadeInUp text-xl sm:text-2xl lg:text-3xl xl:text-[34px] text-brand-blue font-normal leading-relaxed max-w-4xl mx-auto mb-10">
+      <div class="max-w-5xl mx-auto px-4 sm:px-8 text-center">
+        <p class="wow animate__animated animate__fadeInUp text-xl sm:text-2xl lg:text-3xl text-brand-blue font-normal leading-relaxed max-w-4xl mx-auto mb-10">
           A leading network of British schools in Qatar, offering the English National Curriculum, a rich Arabic program, and a focus on innovation, character, and critical thinking.
         </p>
         <div class="wow animate__animated animate__fadeInUp mb-12" data-wow-delay="0.2s">
-          <a href="#why-choose" class="inline-flex items-center justify-center bg-brand-green text-white font-medium text-base px-9 py-3.5 rounded-xl shadow-md hover:bg-brand-green-dark transition">About us</a>
+          <a href="#why-choose" class="btn-primary !text-sm !py-3 !px-8">About us</a>
         </div>
         <div class="wow animate__animated animate__fadeInUp max-w-4xl mx-auto px-4" data-wow-delay="0.3s">
           <img src="assets/about_students.png" alt="Students Reading Books at Newton Group" class="w-full h-auto object-contain mx-auto drop-shadow-2xl">
@@ -171,7 +171,7 @@
 
     <!-- Why Choose NGS: Core Values Grid -->
     <section id="why-choose" class="bg-brand-green text-white py-20 lg:py-28 relative overflow-hidden">
-      <div class="max-w-[1400px] mx-auto px-4 sm:px-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10 items-center">
           <div class="lg:col-span-4 flex flex-col justify-between h-full">
             <div class="wow animate__animated animate__fadeInLeft">
@@ -184,48 +184,48 @@
           </div>
 
           <div class="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 lg:gap-6">
-            <div class="value-card bg-white text-brand-navy shadow-2xl rounded-[28px] p-6 lg:p-7 flex flex-col items-center text-center cursor-pointer scale-[1.02] transition-all duration-300">
-              <i class="value-icon fa-solid fa-handshake text-3xl mb-4 text-brand-navy transition"></i>
+            <div class="value-card active">
+              <i class="value-icon fa-solid fa-handshake"></i>
               <h3 class="font-serif text-xl font-bold mb-2.5">Respect</h3>
               <p class="text-sm leading-relaxed opacity-90">Respect for oneself, others, and community property.</p>
             </div>
-            <div class="value-card bg-transparent text-white border-2 border-white/60 rounded-[28px] p-6 lg:p-7 flex flex-col items-center text-center cursor-pointer hover:bg-white hover:text-brand-navy hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
-              <i class="value-icon fa-solid fa-scale-balanced text-3xl mb-4 text-white transition"></i>
+            <div class="value-card">
+              <i class="value-icon fa-solid fa-scale-balanced"></i>
               <h3 class="font-serif text-xl font-bold mb-2.5">Honesty</h3>
               <p class="text-sm leading-relaxed opacity-90">Honesty in all our actions and academic pursuits.</p>
             </div>
-            <div class="value-card bg-transparent text-white border-2 border-white/60 rounded-[28px] p-6 lg:p-7 flex flex-col items-center text-center cursor-pointer hover:bg-white hover:text-brand-navy hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
-              <i class="value-icon fa-regular fa-heart text-3xl mb-4 text-white transition"></i>
+            <div class="value-card">
+              <i class="value-icon fa-regular fa-heart"></i>
               <h3 class="font-serif text-xl font-bold mb-2.5">Empathy</h3>
               <p class="text-sm leading-relaxed opacity-90">Understanding and appreciation of the feelings of others.</p>
             </div>
-            <div class="value-card bg-transparent text-white border-2 border-white/60 rounded-[28px] p-6 lg:p-7 flex flex-col items-center text-center cursor-pointer hover:bg-white hover:text-brand-navy hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
-              <i class="value-icon fa-solid fa-users-rays text-3xl mb-4 text-white transition"></i>
+            <div class="value-card">
+              <i class="value-icon fa-solid fa-users-rays"></i>
               <h3 class="font-serif text-xl font-bold mb-2.5">Support</h3>
               <p class="text-sm leading-relaxed opacity-90">Help each individual reach their full academic potential.</p>
             </div>
-            <div class="value-card bg-transparent text-white border-2 border-white/60 rounded-[28px] p-6 lg:p-7 flex flex-col items-center text-center cursor-pointer hover:bg-white hover:text-brand-navy hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
-              <i class="value-icon fa-solid fa-globe text-3xl mb-4 text-white transition"></i>
+            <div class="value-card">
+              <i class="value-icon fa-solid fa-globe"></i>
               <h3 class="font-serif text-xl font-bold mb-2.5">Diversity</h3>
               <p class="text-sm leading-relaxed opacity-90">Appreciation of all languages, traditions, and cultures.</p>
             </div>
-            <div class="value-card bg-transparent text-white border-2 border-white/60 rounded-[28px] p-6 lg:p-7 flex flex-col items-center text-center cursor-pointer hover:bg-white hover:text-brand-navy hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
-              <i class="value-icon fa-regular fa-comments text-3xl mb-4 text-white transition"></i>
+            <div class="value-card">
+              <i class="value-icon fa-regular fa-comments"></i>
               <h3 class="font-serif text-xl font-bold mb-2.5">Clear Discussion</h3>
               <p class="text-sm leading-relaxed opacity-90">Open and effective communication among all stakeholders.</p>
             </div>
-            <div class="value-card bg-transparent text-white border-2 border-white/60 rounded-[28px] p-6 lg:p-7 flex flex-col items-center text-center cursor-pointer hover:bg-white hover:text-brand-navy hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
-              <i class="value-icon fa-solid fa-hands-holding-circle text-3xl mb-4 text-white transition"></i>
+            <div class="value-card">
+              <i class="value-icon fa-solid fa-hands-holding-circle"></i>
               <h3 class="font-serif text-xl font-bold mb-2.5">Social Ethics</h3>
               <p class="text-sm leading-relaxed opacity-90">Development of responsible citizens through community service.</p>
             </div>
-            <div class="value-card bg-transparent text-white border-2 border-white/60 rounded-[28px] p-6 lg:p-7 flex flex-col items-center text-center cursor-pointer hover:bg-white hover:text-brand-navy hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
-              <i class="value-icon fa-solid fa-user-check text-3xl mb-4 text-white transition"></i>
+            <div class="value-card">
+              <i class="value-icon fa-solid fa-user-check"></i>
               <h3 class="font-serif text-xl font-bold mb-2.5">Self-Management</h3>
               <p class="text-sm leading-relaxed opacity-90">Highest personal commitment to taking responsibility for our actions.</p>
             </div>
-            <div class="value-card bg-transparent text-white border-2 border-white/60 rounded-[28px] p-6 lg:p-7 flex flex-col items-center text-center cursor-pointer hover:bg-white hover:text-brand-navy hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
-              <i class="value-icon fa-solid fa-leaf text-3xl mb-4 text-white transition"></i>
+            <div class="value-card">
+              <i class="value-icon fa-solid fa-leaf"></i>
               <h3 class="font-serif text-xl font-bold mb-2.5">Eco-Awareness</h3>
               <p class="text-sm leading-relaxed opacity-90">Respect for and active protection of our natural environment.</p>
             </div>
@@ -234,37 +234,47 @@
       </div>
     </section>
 
-    <!-- Visit Our Campuses Carousel -->
+    <!-- Campuses Carousel -->
     <section id="campuses" class="py-20 lg:py-28 bg-white overflow-hidden">
-      <div class="max-w-[1400px] mx-auto px-4 sm:px-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8">
         <div class="flex justify-between items-center mb-12">
-          <h2 class="font-serif text-3xl sm:text-4xl lg:text-[40px] font-bold text-brand-navy tracking-wider uppercase">VISIT OUR CAMPUSES</h2>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-navy tracking-wider uppercase">VISIT OUR CAMPUSES</h2>
           <div class="flex items-center gap-3">
-            <button id="campus-prev" class="w-12 h-12 rounded-full border border-slate-700 text-slate-800 flex items-center justify-center hover:bg-brand-green hover:text-white hover:border-brand-green transition" aria-label="Previous campus"><i class="fa-solid fa-arrow-left text-sm"></i></button>
-            <button id="campus-next" class="w-12 h-12 rounded-full border border-slate-700 text-slate-800 flex items-center justify-center hover:bg-brand-green hover:text-white hover:border-brand-green transition" aria-label="Next campus"><i class="fa-solid fa-arrow-right text-sm"></i></button>
+            <button id="campus-prev" class="btn-arrow" aria-label="Previous campus"><i class="fa-solid fa-arrow-left text-sm"></i></button>
+            <button id="campus-next" class="btn-arrow" aria-label="Next campus"><i class="fa-solid fa-arrow-right text-sm"></i></button>
           </div>
         </div>
 
         <div class="swiper campus-swiper pb-4">
           <div class="swiper-wrapper">
             <div class="swiper-slide group cursor-pointer">
-              <div class="overflow-hidden rounded-xl shadow-sm border border-slate-100"><img src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?q=80&w=1000&auto=format&fit=crop" alt="West Bay Campus" class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500"></div>
+              <div class="overflow-hidden rounded-xl shadow-sm border border-slate-100">
+                <img src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?q=80&w=1000&auto=format&fit=crop" alt="West Bay Campus" class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500">
+              </div>
               <h3 class="text-center font-bold text-lg lg:text-xl text-brand-navy tracking-wider uppercase mt-5 group-hover:text-brand-green transition">WEST BAY</h3>
             </div>
             <div class="swiper-slide group cursor-pointer">
-              <div class="overflow-hidden rounded-xl shadow-sm border border-slate-100"><img src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1000&auto=format&fit=crop" alt="Barwa City Campus" class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500"></div>
+              <div class="overflow-hidden rounded-xl shadow-sm border border-slate-100">
+                <img src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1000&auto=format&fit=crop" alt="Barwa City Campus" class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500">
+              </div>
               <h3 class="text-center font-bold text-lg lg:text-xl text-brand-navy tracking-wider uppercase mt-5 group-hover:text-brand-green transition">BARWA CITY</h3>
             </div>
             <div class="swiper-slide group cursor-pointer">
-              <div class="overflow-hidden rounded-xl shadow-sm border border-slate-100"><img src="https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1000&auto=format&fit=crop" alt="Lagoon Campus" class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500"></div>
+              <div class="overflow-hidden rounded-xl shadow-sm border border-slate-100">
+                <img src="https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1000&auto=format&fit=crop" alt="Lagoon Campus" class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500">
+              </div>
               <h3 class="text-center font-bold text-lg lg:text-xl text-brand-navy tracking-wider uppercase mt-5 group-hover:text-brand-green transition">LAGOON</h3>
             </div>
             <div class="swiper-slide group cursor-pointer">
-              <div class="overflow-hidden rounded-xl shadow-sm border border-slate-100"><img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1000&auto=format&fit=crop" alt="D-Ring Road Campus" class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500"></div>
+              <div class="overflow-hidden rounded-xl shadow-sm border border-slate-100">
+                <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1000&auto=format&fit=crop" alt="D-Ring Road Campus" class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500">
+              </div>
               <h3 class="text-center font-bold text-lg lg:text-xl text-brand-navy tracking-wider uppercase mt-5 group-hover:text-brand-green transition">D-RING ROAD</h3>
             </div>
             <div class="swiper-slide group cursor-pointer">
-              <div class="overflow-hidden rounded-xl shadow-sm border border-slate-100"><img src="https://images.unsplash.com/photo-1592280771190-3e2e4d571952?q=80&w=1000&auto=format&fit=crop" alt="Al Waab Campus" class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500"></div>
+              <div class="overflow-hidden rounded-xl shadow-sm border border-slate-100">
+                <img src="https://images.unsplash.com/photo-1592280771190-3e2e4d571952?q=80&w=1000&auto=format&fit=crop" alt="Al Waab Campus" class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500">
+              </div>
               <h3 class="text-center font-bold text-lg lg:text-xl text-brand-navy tracking-wider uppercase mt-5 group-hover:text-brand-green transition">AL WAAB</h3>
             </div>
           </div>
@@ -272,12 +282,12 @@
       </div>
     </section>
 
-    <!-- NGS Curriculum Cards -->
+    <!-- Curriculum Section -->
     <section id="curriculum" class="py-16 lg:py-24 bg-white">
-      <div class="max-w-[1400px] mx-auto px-4 sm:px-8">
-        <h2 class="font-serif text-3xl sm:text-4xl lg:text-[40px] font-bold text-brand-navy tracking-wider uppercase mb-12">NGS CURRICULUM</h2>
+      <div class="max-w-7xl mx-auto px-4 sm:px-8">
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-navy tracking-wider uppercase mb-12">NGS CURRICULUM</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
-          <div class="group relative h-[500px] lg:h-[560px] rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="group relative h-[480px] lg:h-[540px] rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
             <img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?q=80&w=1000&auto=format&fit=crop" alt="Early Year Foundation Stage" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
             <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
             <div class="absolute bottom-0 inset-x-0 p-8 text-white">
@@ -286,7 +296,7 @@
               <p class="text-sm text-slate-200 leading-relaxed font-light">Our Early Year Foundation Stage (EYFS) schools include Foundation 1 (Pre-School/Nursery) and Foundation 2 (Reception stage).</p>
             </div>
           </div>
-          <div class="group relative h-[500px] lg:h-[560px] rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="group relative h-[480px] lg:h-[540px] rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
             <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=1000&auto=format&fit=crop" alt="Primary School" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
             <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
             <div class="absolute bottom-0 inset-x-0 p-8 text-white">
@@ -295,7 +305,7 @@
               <p class="text-sm text-slate-200 leading-relaxed font-light">Our Primary Schools include Year 1 to Year 6, fostering literacy, numeracy, and collaborative exploration.</p>
             </div>
           </div>
-          <div class="group relative h-[500px] lg:h-[560px] rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="group relative h-[480px] lg:h-[540px] rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
             <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000&auto=format&fit=crop" alt="Secondary School" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
             <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
             <div class="absolute bottom-0 inset-x-0 p-8 text-white">
@@ -312,7 +322,7 @@
     <section class="relative w-full overflow-hidden bg-slate-900">
       <img id="main-campus-image" src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?q=80&w=2000&auto=format&fit=crop" alt="Campus Aerial View" class="w-full h-[380px] sm:h-[460px] lg:h-[540px] object-cover object-center transition-all duration-700">
       <div class="absolute inset-0 bg-black/20"></div>
-      <div class="absolute inset-0 max-w-[1400px] mx-auto px-4 sm:px-8 flex flex-col justify-end pb-8 sm:pb-12 pointer-events-none">
+      <div class="absolute inset-0 max-w-7xl mx-auto px-4 sm:px-8 flex flex-col justify-end pb-8 sm:pb-12 pointer-events-none">
         <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6 pointer-events-auto">
           <div class="flex items-center gap-3 bg-black/40 backdrop-blur-md p-2 rounded-2xl border border-white/20">
             <img src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?q=80&w=400&auto=format&fit=crop" data-img="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?q=80&w=2000&auto=format&fit=crop" alt="Campus 1" class="campus-thumb w-14 h-14 sm:w-16 sm:h-16 rounded-xl object-cover cursor-pointer ring-4 ring-brand-green scale-105 transition">
@@ -326,22 +336,22 @@
 
     <!-- NGS Galleria Section -->
     <section class="py-20 lg:py-28 bg-[#F8FAFD] overflow-hidden">
-      <div class="max-w-[1400px] mx-auto px-4 sm:px-8">
-        <h2 class="font-serif text-3xl sm:text-4xl lg:text-[40px] font-bold text-brand-navy tracking-wider uppercase mb-16">NGS GALLERIA</h2>
+      <div class="max-w-7xl mx-auto px-4 sm:px-8">
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-navy tracking-wider uppercase mb-16">NGS GALLERIA</h2>
         <div class="flex flex-wrap lg:flex-nowrap justify-center items-center gap-6 lg:gap-4 xl:gap-6 py-6">
-          <div class="w-[260px] sm:w-[280px] h-[320px] rounded-2xl overflow-hidden border-4 border-brand-green shadow-xl transform -rotate-3 hover:rotate-0 hover:scale-105 transition duration-300 flex-shrink-0">
+          <div class="galleria-item w-[260px] sm:w-[280px] h-[320px] transform -rotate-3">
             <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=600&auto=format&fit=crop" alt="Science Laboratory Activity" class="w-full h-full object-cover">
           </div>
-          <div class="w-[280px] sm:w-[320px] h-[360px] rounded-2xl overflow-hidden border-4 border-brand-green shadow-xl transform rotate-2 hover:rotate-0 hover:scale-105 transition duration-300 flex-shrink-0 z-10">
+          <div class="galleria-item w-[280px] sm:w-[320px] h-[360px] transform rotate-2 z-10">
             <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=600&auto=format&fit=crop" alt="Art and Creative Studio" class="w-full h-full object-cover">
           </div>
-          <div class="w-[300px] sm:w-[340px] h-[390px] rounded-2xl overflow-hidden border-4 border-brand-green shadow-2xl transform -rotate-2 hover:rotate-0 hover:scale-105 transition duration-300 flex-shrink-0 z-20">
+          <div class="galleria-item w-[300px] sm:w-[340px] h-[390px] transform -rotate-2 z-20">
             <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=600&auto=format&fit=crop" alt="Recreation and Library" class="w-full h-full object-cover">
           </div>
-          <div class="w-[280px] sm:w-[320px] h-[360px] rounded-2xl overflow-hidden border-4 border-brand-green shadow-xl transform rotate-3 hover:rotate-0 hover:scale-105 transition duration-300 flex-shrink-0 z-10">
+          <div class="galleria-item w-[280px] sm:w-[320px] h-[360px] transform rotate-3 z-10">
             <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=600&auto=format&fit=crop" alt="Classroom Discussion" class="w-full h-full object-cover">
           </div>
-          <div class="w-[260px] sm:w-[280px] h-[320px] rounded-2xl overflow-hidden border-4 border-brand-green shadow-xl transform -rotate-2 hover:rotate-0 hover:scale-105 transition duration-300 flex-shrink-0">
+          <div class="galleria-item w-[260px] sm:w-[280px] h-[320px] transform -rotate-2">
             <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=600&auto=format&fit=crop" alt="Robotics and Early Discovery" class="w-full h-full object-cover">
           </div>
         </div>
@@ -350,19 +360,19 @@
 
     <!-- News & Events Carousel -->
     <section id="news" class="py-20 lg:py-28 bg-[#F0F4FA] overflow-hidden">
-      <div class="max-w-[1400px] mx-auto px-4 sm:px-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8">
         <div class="flex justify-between items-center mb-12">
-          <h2 class="font-serif text-3xl sm:text-4xl lg:text-[40px] font-bold text-brand-navy tracking-wider uppercase">OUR NEWS & EVENTS</h2>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-navy tracking-wider uppercase">OUR NEWS & EVENTS</h2>
           <div class="flex items-center gap-3">
-            <button id="news-prev" class="w-12 h-12 rounded-full border border-slate-700 text-slate-800 flex items-center justify-center hover:bg-brand-green hover:text-white hover:border-brand-green transition" aria-label="Previous news"><i class="fa-solid fa-arrow-left text-sm"></i></button>
-            <button id="news-next" class="w-12 h-12 rounded-full border border-slate-700 text-slate-800 flex items-center justify-center hover:bg-brand-green hover:text-white hover:border-brand-green transition" aria-label="Next news"><i class="fa-solid fa-arrow-right text-sm"></i></button>
+            <button id="news-prev" class="btn-arrow" aria-label="Previous news"><i class="fa-solid fa-arrow-left text-sm"></i></button>
+            <button id="news-next" class="btn-arrow" aria-label="Next news"><i class="fa-solid fa-arrow-right text-sm"></i></button>
           </div>
         </div>
 
         <div class="swiper news-swiper pb-4">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="bg-white rounded-[28px] p-5 shadow-sm border border-slate-200/60 hover:shadow-xl transition duration-300">
+              <div class="bg-white rounded-3xl p-5 shadow-sm border border-slate-200/60 hover:shadow-xl transition duration-300">
                 <div class="rounded-2xl overflow-hidden h-[240px] mb-5">
                   <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop" alt="Head Girl Feature" class="w-full h-full object-cover hover:scale-105 transition duration-500">
                 </div>
@@ -380,7 +390,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="bg-white rounded-[28px] p-5 shadow-sm border border-slate-200/60 hover:shadow-xl transition duration-300">
+              <div class="bg-white rounded-3xl p-5 shadow-sm border border-slate-200/60 hover:shadow-xl transition duration-300">
                 <div class="rounded-2xl overflow-hidden h-[240px] mb-5">
                   <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop" alt="Horse Racing Championship" class="w-full h-full object-cover hover:scale-105 transition duration-500">
                 </div>
@@ -398,7 +408,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="bg-white rounded-[28px] p-5 shadow-sm border border-slate-200/60 hover:shadow-xl transition duration-300">
+              <div class="bg-white rounded-3xl p-5 shadow-sm border border-slate-200/60 hover:shadow-xl transition duration-300">
                 <div class="rounded-2xl overflow-hidden h-[240px] mb-5">
                   <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop" alt="Academic Excellence" class="w-full h-full object-cover hover:scale-105 transition duration-500">
                 </div>
@@ -420,9 +430,9 @@
       </div>
     </section>
 
-    <!-- Social Feed / Get Connected Carousel -->
+    <!-- Social Feed Section -->
     <section class="py-16 lg:py-24 bg-white overflow-hidden">
-      <div class="max-w-[1400px] mx-auto px-4 sm:px-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8">
         <div class="swiper social-swiper pb-4 mb-8">
           <div class="swiper-wrapper">
             <div class="swiper-slide group cursor-pointer">
@@ -484,8 +494,8 @@
 
     <!-- Accreditations & Partners -->
     <section class="py-16 lg:py-24 bg-white border-t border-slate-100">
-      <div class="max-w-[1400px] mx-auto px-4 sm:px-8">
-        <h2 class="font-serif text-3xl sm:text-4xl lg:text-[40px] font-bold text-brand-navy tracking-wider uppercase mb-12">ACCREDITATIONS</h2>
+      <div class="max-w-7xl mx-auto px-4 sm:px-8">
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-navy tracking-wider uppercase mb-12">ACCREDITATIONS</h2>
         <div class="flex flex-wrap items-center justify-between gap-8 sm:gap-12 py-4">
           <div class="text-slate-800 font-bold tracking-wider text-sm flex items-center gap-2"><span class="w-3 h-3 bg-red-600 rounded-full"></span> COBIS <span class="text-xs font-normal text-slate-500">MEMBER</span></div>
           <div class="text-slate-800 font-bold tracking-wider text-sm flex items-center gap-2"><i class="fa-solid fa-award text-amber-500 text-lg"></i> SAPERE <span class="text-xs font-normal text-slate-500">Silver</span></div>
@@ -500,9 +510,9 @@
     </section>
   </main>
 
-  <!-- Comprehensive Footer -->
+  <!-- Main Footer -->
   <footer id="footer" class="bg-brand-navy text-white pt-20 pb-12 border-t border-white/10">
-    <div class="max-w-[1400px] mx-auto px-4 sm:px-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 pb-16 border-b border-white/10">
         <div class="lg:col-span-4">
           <div class="flex items-center gap-4 mb-6">
@@ -570,7 +580,7 @@
     </div>
   </footer>
 
-  <!-- Vendor & App Scripts -->
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script src="js/main.js"></script>

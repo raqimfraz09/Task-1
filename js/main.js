@@ -34,20 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // 5. Value Cards Active State
-  const activeCls = ['bg-white', 'text-brand-navy', 'shadow-2xl', 'scale-[1.02]'];
-  const inactiveCls = ['bg-transparent', 'text-white', 'border-white/60'];
   const cards = document.querySelectorAll('.value-card');
   cards.forEach(card => card.onmouseenter = () => {
-    cards.forEach(c => {
-      const active = c === card;
-      c.classList.remove(...(active ? inactiveCls : activeCls));
-      c.classList.add(...(active ? activeCls : inactiveCls));
-      const icon = c.querySelector('.value-icon');
-      if (icon) {
-        icon.classList.toggle('text-brand-navy', active);
-        icon.classList.toggle('text-white', !active);
-      }
-    });
+    cards.forEach(c => c.classList.remove('active'));
+    card.classList.add('active');
   });
 
   // 6. Campus Showcase Thumbnails
